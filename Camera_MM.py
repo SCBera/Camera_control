@@ -1,6 +1,7 @@
 # This python code uses MicroManager device drivers to control a camera.
 # Tested on MM_DemoCam, should work similarly on other cameras.
 #Environment setup instructions: https://micro-manager.org/wiki/Using_the_Micro-Manager_python_library
+
 import sys
 sys.path.append("C:\Program Files\Micro-Manager-1.4")
 import MMCorePy #load MicroManager for device control
